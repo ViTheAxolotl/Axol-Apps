@@ -6,11 +6,16 @@ if (gameFrame) {
         // Save the current scroll position
         const scrollV = window.scrollY;
         const scrollH = window.scrollX;
-        
+        gameFrame.focus();
         // Lock the window at that position
         window.onscroll = function() {
             window.scrollTo(scrollH, scrollV);
         };
+    });
+
+    // When the mouse leaves the game, restore normal scrolling
+    gameFrame.addEventListener('mouseleave', () => {
+        window.onscroll = null;
     });
 }
 
