@@ -98,6 +98,12 @@ body * { -webkit-text-size-adjust: none !important; }
     margin: 20px 10px 0px 0px;
 }
 
+#hometown
+{
+	padding: 10px 20px;
+	list-style-image: url(../images/heart.png);
+}
+
 #story, #map, #towns, #controls, #discDisplay, #gridMapWrapper, #login
 {
     margin-top: 20px;
