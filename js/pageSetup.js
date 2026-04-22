@@ -38,16 +38,16 @@ function init()
 function navBarSetup()
 {
     nav[0].innerHTML = `<div class="container-fluid">
-        <a class="navbar-brand" href="${mainLocation}index.html"><img src = "${imageLocation}UP.png" title = "Infused" alt = "Infused" width = "70" height = "70"/></a>
+        <a class="navbar-brand" href="${mainLocation}index.html"><img src = "${imageLocation}axolotl.png" title = "Axolotl" alt = "Axolotl" width = "70" height = "70"/></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
-            <ul class="navbar-nav me-auto my-2 my-lg-0 " style="--bs-scroll-height: 100px;"> 
+            <ul class="navbar-nav me-auto my-2 my-lg-0 center" style="--bs-scroll-height: 100px;"> 
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="${mainLocation}index.html">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://infused.axol-apps.com/index.html">Infused Campaign</a></li>    
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://sheets.axol-apps.com/index.html">Standalone Character Sheets</a></li>);    
-                ${log}
+            </ul>
     </div>`;
 }
 
