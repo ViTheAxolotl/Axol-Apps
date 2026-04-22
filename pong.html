@@ -60,16 +60,12 @@
      <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
      <script>
     // Get the iframe element
-    const gameFrame = document.querySelector('iframe.center');
+    // Force the iframe to capture focus when the mouse enters its area
+const iframe = document.querySelector('iframe'); // Ensure this matches your iframe
 
-    // Focus the iframe when the mouse enters it
-    gameFrame.addEventListener('mouseenter', () => {
-        gameFrame.focus();
-    });
-
-    // Also focus when clicked, just in case
-    gameFrame.addEventListener('mousedown', () => {
-        gameFrame.focus();
+iframe.addEventListener('mouseenter', () => {
+    iframe.focus();
+});
     });
 </script>
 </body>
