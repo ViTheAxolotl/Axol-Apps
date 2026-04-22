@@ -13,34 +13,24 @@
     <link rel="shortcut icon" href="images/favicon.png">
 </head>
 
-<body class="bg-UP-grey">
+<body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-UP-purple">
-        <div class="container">
-            <a class="navbar-brand color-UP-yellow" href="#">Axol-Apps</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="https://infused.axol-apps.com">Infused Map</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://sheets.axol-apps.com">Character Sheets</a></li>
-                </ul>
-            </div>
-        </div>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-primary"> 
+        <script src="js/pageSetup.js" class="noParent" type="module"></script>
     </nav>
 
-    <header id="header" class="paper m-bottom-margin">
-        <h1 class="color-UP-purple">Vi Snyder</h1>
-        <p class="lead">Full Stack Developer | Cybersecurity & IT Specialist</p>
-        <div class="center">
-            <span class="badge bg-UP-blue">Portland, ME</span>
-            <span class="badge bg-UP-purple">Summa Cum Laude Graduate</span>
-        </div>
-    </header>
-
     <div class="container">
-        <div class="row">
+        <div class="row align-items-top">
+            <div id = "header" class = "col-12 bg-UP-purple">
+                <h1 class="color-UP-purple">Vi Snyder</h1>
+                <p class="lead">Full Stack Developer | Cybersecurity & IT Specialist</p>
+                <div class="center">
+                    <span class="badge bg-UP-blue">Portland, ME</span>
+                    <span class="badge bg-UP-purple">Summa Cum Laude Graduate</span>
+                </div>
+            </div>
+
+
             <div class="col-md-7">
                 <section id="story" class="bg-UP-white objectBorder mb-4">
                     <h3 class="color-UP-purple">Featured Projects</h3>
@@ -89,9 +79,8 @@
         </div>
     </div>
 
-    <footer id="footer" class="bg-UP-purple color-UP-white mt-5">
-        <p>Vicsnyder473@gmail.com | (419) 438-3692 </p>
-    </footer>
+    <div id = "footer" class = "col-12 bg-UP-blue">
+    </div>
 
     <script scr="js/bootstrap/scripts.js"></script>
      <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
