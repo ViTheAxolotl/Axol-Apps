@@ -83,11 +83,6 @@ body * { -webkit-text-size-adjust: none !important; }
     margin: 20px 0px;
 }
 
-#hometown, #info, #quests, #notes
-{
-    text-align: center;
-}
-
 #hometown, #display, #notes
 {
     margin: 20px 0px 0px 10px;
