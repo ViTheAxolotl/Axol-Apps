@@ -12,11 +12,6 @@ if (gameFrame) {
             window.scrollTo(scrollH, scrollV);
         };
     });
-
-    // When the mouse leaves the game, restore normal scrolling
-    gameFrame.addEventListener('mouseleave', () => {
-        window.onscroll = null;
-    });
 }
 
 // Global Interceptor for Arrow Keys
