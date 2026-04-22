@@ -103,6 +103,10 @@ iframe
 	overflow: hidden;
 	width: 80vw;
 	height: 80vh;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto; /* Backup centering */
+    border: none;
 }
 
 #hometown
