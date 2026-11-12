@@ -201,7 +201,7 @@ iframe
 
 .navbar-brand img
 {
-    width: 54px;
+    width: auto;        /* keep each logo's own proportions */
     height: 54px;
     filter: drop-shadow(0 0 8px rgba(255, 176, 84, .35));
 }
