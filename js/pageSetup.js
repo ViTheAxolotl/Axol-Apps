@@ -43,7 +43,10 @@ function navBarSetup()
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
-            <li class="nav-item"><a class="nav-link active" aria-current="page" href="${mainLocation}index.html">Portfolio</a></li>
+            <ul class="navbar-nav me-auto my-2 my-lg-0">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="${mainLocation}index.html">Portfolio</a></li>
+            </ul>
+        </div>
     </div>`;
 }
 
