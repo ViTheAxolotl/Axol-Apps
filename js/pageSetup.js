@@ -45,7 +45,7 @@ function navBarSetup()
         <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
             <ul class="navbar-nav me-auto my-2 my-lg-0">
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="${mainLocation}index.html">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="www.axol-apps.com">Axol-Apps</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://www.axol-apps.com">Axol-Apps</a></li>
             </ul>
         </div>
     </div>`;
