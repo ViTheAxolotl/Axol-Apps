@@ -1,2 +1,2 @@
-# Axol-Apps
-Landing Page for Axol Apps
+# Portfolio
+Landing Page for Vi's Portfolio
